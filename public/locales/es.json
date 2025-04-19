@@ -1,5 +1,11 @@
 {
   "hero_title": "Bienvenido a Demy",
   "hero_subtitle": "La forma inteligente de gestionar tu academia",
-  "cta_button": "Comenzar"
+  "cta_button": "Comenzar",
+  "nav_about": "Inicio",
+  "nav_benefits": "Beneficios",
+  "nav_plans": "Planes",
+  "nav_contact": "Contacto",
+  "nav_login": "Iniciar sesión",
+  "nav_signup": "Registrarse"
 }

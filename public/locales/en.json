@@ -1,5 +1,11 @@
 {
-  "hero_title": "Welcome to DemyAAA",
+  "hero_title": "Welcome to Demy",
   "hero_subtitle": "The smart way to manage your academy",
-  "cta_button": "Get started"
+  "cta_button": "Get started",
+  "nav_about": "About",
+  "nav_benefits": "Benefits",
+  "nav_plans": "Plans",
+  "nav_contact": "Contact",
+  "nav_login": "Log in",
+  "nav_signup": "Sign up"
 }
