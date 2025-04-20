@@ -1,11 +1,16 @@
 {
-  "hero_title": "Welcome to Demy",
-  "hero_subtitle": "The smart way to manage your academy",
-  "cta_button": "Get started",
-  "nav_about": "About",
-  "nav_benefits": "Benefits",
-  "nav_plans": "Plans",
-  "nav_contact": "Contact",
-  "nav_login": "Log in",
-  "nav_signup": "Sign up"
+  "hero": {
+    "title": "Simplify and grow your <span>education business</span>",
+    "subtitle": "SMARTER ACADEMY MANAGEMENT",
+    "description": "Automate enrollments, schedules, payments, and student tracking with an all-in-one platform designed for your academy.",
+    "cta": "Get started"
+  },
+  "nav": {
+    "about": "About",
+    "benefits": "Benefits",
+    "plans": "Plans",
+    "contact": "Contact",
+    "login": "Log in",
+    "signup": "Sign up"
+  }
 }
