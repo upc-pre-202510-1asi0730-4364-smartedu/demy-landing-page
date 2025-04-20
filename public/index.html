@@ -4,60 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demy - Landing Page</title>
+    <!-- Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- TailwindCSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/hero.css">
 </head>
 <body class="bg-white text-gray-800">
 
+<!-- Navbar -->
+<nav class="w-full bg-white shadow-md relative z-10">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+        <!-- Logo -->
+        <div class="flex items-center space-x-2">
+            <img src="assets/icon/logo.svg" alt="Demy Logo" class="h-8 w-8">
+            <span class="text-primary font-bold text-xl">Demy</span>
+        </div>
+
+        <!-- Botón hamburguesa solo en mobile -->
+        <button id="menu-toggle" class="md:hidden text-primary text-2xl focus:outline-none">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <!-- Enlaces desktop -->
+        <div class="hidden md:flex space-x-6 gap-4 label text-primary transition">
+            <a id="nav-about" href="#about-product" class="hover-text-accent transition">About</a>
+            <a id="nav-benefits" href="#benefits" class="hover-text-accent transition">Benefits</a>
+            <a id="nav-plans" href="#pricing" class="hover-text-accent transition">Plans</a>
+            <a id="nav-contact" href="#contact" class="hover-text-accent transition">Contact</a>
+        </div>
+
+        <!-- Botones de acceso -->
+        <div class="hidden md:flex space-x-4 items-center gap-4 pl-2">
+
+            <!-- Selector de idioma con Font Awesome -->
+            <div class="relative">
+                <button id="lang-toggle" class="label flex items-center space-x-1 text-primary hover:underline focus:outline-none">
+                    <i class="fa-solid fa-globe"></i>
+                    <span id="current-lang">EN</span>
+                    <i class="fa-solid fa-chevron-down text-xs"></i>
+                </button>
+
+                <!-- Dropdown de idioma -->
+                <div id="lang-options" class="absolute right-0 mt-2 w-28 bg-white border rounded shadow-md hidden z-10">
+                    <button id="lang-en" class="w-full text-left px-4 py-2 small-text hover:bg-gray-100">English</button>
+                    <button id="lang-es" class="w-full text-left px-4 py-2 small-text hover:bg-gray-100">Español</button>
+                </div>
+            </div>
+
+            <!-- Log in y Sign up -->
+            <a id="nav-login" href="#" class="label text-primary hover:underline">Log in</a>
+            <a id="nav-signup" href="#" class="label px-4 py-2 bg-primary text-white rounded-lg hover:bg-[#072f5b] transition">Sign up</a>
+        </div>
+
+    </div>
+
+    <!-- Menú móvil con padding interno dentro -->
+    <div id="mobile-menu" class="md:hidden max-h-0 overflow-hidden transition-all duration-300 ease-in-out text-primary">
+        <div class="px-6 pb-4 space-y-4 label">
+            <a id="nav-about-mobile" href="#about-product" class="block hover-text-accent">About</a>
+            <a id="nav-benefits-mobile" href="#benefits" class="block hover-text-accent">Benefits</a>
+            <a id="nav-plans-mobile" href="#pricing" class="block hover-text-accent">Plans</a>
+            <a id="nav-contact-mobile" href="#contact" class="block hover-text-accent">Contact</a>
+            <hr>
+            <a id="nav-login-mobile" href="#" class="block hover:underline">Log in</a>
+            <a id="nav-signup-mobile" href="#" class="block px-4 py-2 bg-primary text-white rounded-lg hover:bg-[#072f5b] transition w-max">Sign up</a>
+        </div>
+    </div>
+
+</nav>
+
 <!-- LPS01: Hero Section -->
-<header id="hero" class="p-6 text-center bg-blue-50">
-    <h1 id="hero-title" class="text-4xl font-bold mb-2">Loading...</h1>
-    <p id="hero-subtitle" class="text-lg mb-4"></p>
-    <button id="cta-btn" class="px-4 py-2 bg-blue-600 text-white rounded"></button>
-    <!-- Language Switch (LPS10) -->
-    <div class="flex justify-center space-x-4 mt-4">
-        <button id="lang-en" class="text-blue-500 underline">English</button>
-        <button id="lang-es" class="text-blue-500 underline">Español</button>
+<header id="hero" class="bg-blue-50 py-12 md:py-20 px-6">
+    <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center lg:gap-x-12">
+
+        <!-- Texto a la izquierda -->
+        <div class="w-full lg:w-1/2 max-w-xl text-left">
+            <p id="hero-subtitle" class="text-primary-3 font-medium text-lg mb-2">SMARTER ACADEMY MANAGEMENT</p>
+            <h1 id="hero-title" class="h1 text-primary-1 mb-4 leading-tight">
+                Simplify and grow your education business
+            </h1>
+            <p id="hero-description" class="body-1 text-secondary-dark-2 mb-6">
+                Automate enrollments, schedules, payments, and student tracking with an all-in-one platform designed for your academy.
+            </p>
+            <button id="cta-btn"
+                    class="px-6 py-3 bg-primary-2 text-white rounded-xl shadow-md hover-bg-primary-1 transition duration-300 font-semibold text-lg">
+                Get Started
+            </button>
+        </div>
+
+        <!-- Imagen con fondo decorativo a la derecha -->
+        <div class="relative w-full lg:w-1/2 mb-10 lg:mb-0 hero-image-container mt-14 lg:mt-0">
+            <div class="hero-gradient"></div>
+            <img src="assets/img/hero-people.png"
+                 alt="Hero"
+                 class="hero-image">
+        </div>
+
     </div>
 </header>
 
 <!-- LPS02: About the Product -->
-<section id="about-product" class="p-6 text-center">
-
+<section id="about-product" class="py-12 md:py-20 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+        <!-- contenido -->
+    </div>
 </section>
 
 <!-- LPS03: Benefits -->
-<section id="benefits" class="p-6 text-center bg-gray-50">
-
+<section id="benefits" class="py-12 md:py-20 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+        <!-- contenido -->
+    </div>
 </section>
 
 <!-- LPS04: Testimonials -->
-<section id="testimonials" class="p-6 text-center">
-
+<section id="testimonials" class="py-12 md:py-20 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+        <!-- contenido -->
+    </div>
 </section>
 
 <!-- LPS05: About Us -->
-<section id="about-us" class="p-6 text-center bg-gray-50">
-
+<section id="about-us" class="py-12 md:py-20 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+        <!-- contenido -->
+    </div>
 </section>
 
 <!-- LPS06: Plans & Pricing -->
-<section id="pricing" class="p-6 text-center">
-
+<section id="pricing" class="py-12 md:py-20 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+        <!-- contenido -->
+    </div>
 </section>
 
 <!-- LPS07: Contact -->
-<section id="contact" class="p-6 text-center bg-gray-50">
-
+<section id="contact" class="py-12 md:py-20 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+        <!-- contenido -->
+    </div>
 </section>
 
 <!-- LPS08: FAQ -->
-<section id="faq" class="p-6 text-center">
-
+<section id="faq" class="py-12 md:py-20 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+        <!-- contenido -->
+    </div>
 </section>
 
 <!-- LPS09: Footer -->
-<footer id="footer" class="p-6 text-center bg-gray-100 text-sm">
-
+<footer id="footer" class="py-12 md:py-20 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+        <!-- contenido -->
+    </div>
 </footer>
 
 <script type="module" src="js/main.js"></script>
