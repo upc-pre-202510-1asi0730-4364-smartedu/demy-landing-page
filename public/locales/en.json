@@ -12,5 +12,52 @@
     "contact": "Contact",
     "login": "Log in",
     "signup": "Sign up"
+  },
+  "pricing": {
+    "title": "Plans & Pricing",
+    "title_call_to_action": "Choose the right plan for you",
+    "description": "Optimize the management of educational and sports academies through an all-in-one platform that streamlines administration and improves operational efficiency.",
+    "most_popular": "Most Popular",
+    "cards": {
+      "essential": {
+        "title": "Essential",
+        "price": "$29.90",
+        "price_per_month": "/month",
+        "description": "For small academies.",
+        "features": {
+          "feature_1": "1 location",
+          "feature_2": "Up to 100 students",
+          "feature_3": "Up to 10 teachers",
+          "feature_4": "Enrollment and payment management"
+        },
+        "get_started": "Get started today"
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "$59.90",
+        "price_per_month": "/month",
+        "description": "For medium-sized academies.",
+        "features": {
+          "feature_1": "Up to 2 locations",
+          "feature_2": "Up to 500 students",
+          "feature_3": "Up to 50 teachers",
+          "feature_4": "Enrollment and payment management"
+        },
+        "get_started": "Get started today"
+      },
+      "elite": {
+        "title": "Elite",
+        "price": "$199.90",
+        "price_per_month": "/month",
+        "description": "For large academies.",
+        "features": {
+          "feature_1": "Up to 2000 students",
+          "feature_2": "Up to 200 teachers",
+          "feature_3": "Priority support",
+          "feature_4": "Enrollment and payment management"
+        },
+        "get_started": "Get started today"
+      }
+    }
   }
 }
