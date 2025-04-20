@@ -12,5 +12,27 @@
     "contact": "Contact",
     "login": "Log in",
     "signup": "Sign up"
+  },
+  "faq": {
+    "title": "FAQs",
+    "heading": "Frequently asked questions",
+    "questions": {
+      "question_1": {
+        "title": "How can I automate student enrollment and payment management?",
+        "answer": "You can use our platform to efficiently manage student enrollments, track payments, and set up automatic reminders to reduce overdue payments, all from a single place, quickly and securely."
+      },
+      "question_2": {
+        "title": "What tools does Demy provide for scheduling and room assignments?",
+        "answer": "Our platform allows you to automatically assign schedules and classrooms, optimizing the administrative and teaching staff's workload. Users can see real-time updates on schedules and assignments."
+      },
+      "question_3": {
+        "title": "How can I track student attendance?",
+        "answer": "Demy includes an integrated attendance tracking system that allows you to record and check student attendance easily. This system generates detailed reports to help you monitor student performance."
+      },
+      "question_4": {
+        "title": "How does Demy handle user support and training for administrators and teachers?",
+        "answer": "Demy provides dedicated support through email and phone, as well as comprehensive training materials for both administrators and teachers. We ensure that your team feels confident using the platform with detailed tutorials and ongoing customer service."
+      }
+    }
   }
 }

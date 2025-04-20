@@ -81,4 +81,47 @@ window.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
+    //faq section
+    // selecciona los acordeones
+    const defaultAccordionGroup = document.querySelector('.accordion-group[data-accordion="default-accordion"]');
+    if (defaultAccordionGroup) {
+        defaultAccordion(defaultAccordionGroup);
+    }
+
+    function defaultAccordion(defaultAccordionGroup) {
+        const accordionButtons = defaultAccordionGroup.querySelectorAll('.accordion-toggle');
+        console.log("ok")
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const accordion = button.parentElement;
+                const content = button.nextElementSibling;
+                const isOpen = content.style.maxHeight !== ''; // Verifica si está abierto
+
+                // Si ya está abierto, cerramos
+                if (isOpen) {
+                    content.style.maxHeight = ''; // Cerramos el acordeón
+                    accordion.classList.remove('active'); // Quitamos la clase active
+                } else {
+                    content.style.maxHeight = content.scrollHeight + 'px'; // Abrimos el acordeón
+                    accordion.classList.add('active'); // Añadimos la clase active
+                    // Cerramos otros acordeones
+                    const otherButtons = defaultAccordionGroup.querySelectorAll('.accordion-toggle');
+                    otherButtons.forEach(otherButton => {
+                        if (otherButton !== button) {
+                            const otherAccordion = otherButton.parentElement;
+                            otherAccordion.classList.remove('active');
+                            close(otherButton);
+                        }
+                    });
+                }
+            });
+        });
+    }
+
+    // para cerrar acordeones
+    function close(element) {
+        const content = element.nextElementSibling;
+        content.style.maxHeight = ''; // Resetear maxHeight para cerrar
+    }
+
 });

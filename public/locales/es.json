@@ -12,5 +12,27 @@
     "contact": "Contacto",
     "login": "Iniciar sesión",
     "signup": "Registrarse"
+  },
+  "faq": {
+    "title": "FAQs",
+    "heading": "Preguntas frecuentes",
+    "questions": {
+      "question_1": {
+        "title": "¿Cómo puedo automatizar la gestión de matrículas y pagos de los estudiantes?",
+        "answer": "Puedes utilizar nuestra plataforma para gestionar de manera eficiente las matrículas de los estudiantes, hacer seguimiento de los pagos y configurar recordatorios automáticos para reducir los pagos vencidos, todo desde un solo lugar, de manera rápida y segura."
+      },
+      "question_2": {
+        "title": "¿Qué herramientas proporciona Demy para la asignación de horarios y salones?",
+        "answer": "Nuestra plataforma te permite asignar horarios y salones de manera automática, optimizando la carga de trabajo del personal administrativo y docente. Los usuarios pueden ver actualizaciones en tiempo real sobre los horarios y asignaciones."
+      },
+      "question_3": {
+        "title": "¿Cómo puedo hacer un seguimiento de la asistencia de los estudiantes?",
+        "answer": "Demy incluye un sistema integrado de seguimiento de asistencia que te permite registrar y verificar fácilmente la asistencia de los estudiantes. Este sistema genera informes detallados para ayudarte a monitorear el rendimiento de los estudiantes."
+      },
+      "question_4": {
+        "title": "¿Cómo maneja Demy el soporte y la capacitación para administradores y docentes?",
+        "answer": "Demy ofrece soporte dedicado a través de correo electrónico y teléfono, así como materiales de capacitación completos para administradores y docentes. Nos aseguramos de que tu equipo se sienta seguro utilizando la plataforma con tutoriales detallados y servicio al cliente continuo."
+      }
+    }
   }
 }

@@ -13,6 +13,7 @@
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/faq.css">
 </head>
 <body class="bg-white text-gray-800">
 
@@ -152,9 +153,74 @@
 </section>
 
 <!-- LPS08: FAQ -->
-<section id="faq" class="py-12 md:py-20 px-6 bg-gray-50">
+<section id="faq" class="py-12 md:py-20 px-6 bg-light-gray">
     <div class="max-w-6xl mx-auto">
-        <!-- contenido -->
+        <div class="mb-16">
+            <h6 class="subtitle-2 text-primary-2 font-medium text-center mb-2" id="faq-title">FAQs</h6>
+            <h2 class="h2 font-inter text-center font-bold text-secondary leading-tight" id="faq-heading">Frequently asked questions</h2>
+        </div>
+
+        <div class="accordion-group" data-accordion="default-accordion">
+            <!-- Primer Accordion -->
+            <div class="accordion py-8 px-6 border-b border-solid border-medium-gray transition-all duration-500 rounded-2xl hover:bg-secondary-warm-2 accordion-active:bg-secondary-warm-2 active" id="faq-heading-one">
+                <button class="accordion-toggle group inline-flex items-center justify-between leading-8 text-secondary w-full transition duration-500 text-left hover:text-primary accordion-active:font-medium accordion-active:text-primary" aria-controls="faq-collapse-one">
+                    <h3 id="faq-question-one" class="subtitle-1">How can I automate student enrollment and payment management?</h3>
+                    <svg class="text-secondary-dark-3 transition duration-500 group-hover:text-primary accordion-active:text-primary accordion-active:rotate-180" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </button>
+                <div id="faq-collapse-one" class="accordion-content w-full px-0 overflow-hidden" aria-labelledby="faq-heading-one">
+                    <p id="faq-answer-one" class="body-1 text-secondary-dark-2 leading-6">
+                        You can use our platform to efficiently manage student enrollments, track payments, and set up automatic reminders to reduce overdue payments, all from a single place, quickly and securely.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Segundo Accordion -->
+            <div class="accordion py-8 px-6 border-b border-solid border-medium-gray transition-all duration-500 rounded-2xl hover:bg-secondary-warm-2 accordion-active:bg-secondary-warm-2" id="faq-heading-two">
+                <button class="accordion-toggle group inline-flex items-center justify-between leading-8 text-secondary w-full transition duration-500 text-left hover:text-primary accordion-active:text-primary" aria-controls="faq-collapse-two">
+                    <h3 id="faq-question-two" class="subtitle-1">What tools does Demy provide for scheduling and room assignments?</h3>
+                    <svg class="text-secondary-dark-3 transition duration-500 group-hover:text-primary accordion-active:text-primary accordion-active:rotate-180" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </button>
+                <div id="faq-collapse-two" class="accordion-content w-full px-0 overflow-hidden" aria-labelledby="faq-heading-two">
+                    <p id="faq-answer-two" class="body-1 text-secondary-dark-2 leading-6">
+                        Our platform allows you to automatically assign schedules and classrooms, optimizing the administrative and teaching staff's workload. Users can see real-time updates on schedules and assignments.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Tercer Accordion -->
+            <div class="accordion py-8 px-6 border-b border-solid border-medium-gray transition-all duration-500 rounded-2xl hover:bg-secondary-warm-2 accordion-active:bg-secondary-warm-2" id="faq-heading-three">
+                <button class="accordion-toggle group inline-flex items-center justify-between leading-8 text-secondary w-full transition duration-500 text-left hover:text-primary accordion-active:text-primary" aria-controls="faq-collapse-three">
+                    <h3 id="faq-question-three" class="subtitle-1">How can I track student attendance?</h3>
+                    <svg class="text-secondary-dark-3 transition duration-500 group-hover:text-primary accordion-active:text-primary accordion-active:rotate-180" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </button>
+                <div id="faq-collapse-three" class="accordion-content w-full px-0 overflow-hidden" aria-labelledby="faq-heading-three">
+                    <p id="faq-answer-three" class="body-1 text-secondary-dark-2 leading-6">
+                        Demy includes an integrated attendance tracking system that allows you to record and check student attendance easily. This system generates detailed reports to help you monitor student performance.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Cuarto Accordion -->
+            <div class="accordion py-8 px-6 transition-all duration-500 rounded-2xl hover:bg-secondary-warm-2 accordion-active:bg-secondary-warm-2" id="faq-heading-four">
+                <button class="accordion-toggle group inline-flex items-center justify-between leading-8 text-secondary w-full transition duration-500 text-left hover:text-primary accordion-active:text-primary" aria-controls="faq-collapse-four">
+                    <h3 id="faq-question-four" class="subtitle-1">How does Demy handle user support and training for administrators and teachers?</h3>
+                    <svg class="text-secondary-dark-3 transition duration-500 group-hover:text-primary accordion-active:text-primary accordion-active:rotate-180" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </button>
+                <div id="faq-collapse-four" class="accordion-content w-full px-0 overflow-hidden" aria-labelledby="faq-heading-four">
+                    <p id="faq-answer-four" class="body-1 text-secondary-dark-2 leading-6">
+                        Demy provides dedicated support through email and phone, as well as comprehensive training materials for both administrators and teachers. We ensure that your team feels confident using the platform with detailed tutorials and ongoing customer service.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
