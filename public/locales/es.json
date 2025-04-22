@@ -12,5 +12,29 @@
     "contact": "Contacto",
     "login": "Iniciar sesión",
     "signup": "Registrarse"
-  }
+  },
+  "testimonialTitle": "Lo que dicen nuestros usuarios",
+  "testimonials": [
+    {
+      "text": "¡Esta plataforma ha sido un cambio radical para nuestra academia! Es muy fácil de usar y nos ha ahorrado mucho tiempo.",
+      "name": "Mary Doe",
+      "position": "Fundador de Academia XYZ",
+      "image": "assets/img/pj1.jpg",
+      "rating": 4
+    },
+    {
+      "text": "Una herramienta esencial para gestionar nuestra academia. Las funciones de automatización nos ayudan a centrarnos más en nuestros estudiantes.",
+      "name": "Juan Rodriguez",
+      "position": "Directora de Academia ABC",
+      "image": "assets/img/pj2.jpg",
+      "rating": 4
+    },
+    {
+      "text": "La plataforma se integra fácilmente en nuestras operaciones diarias, y el soporte al cliente es excepcional.",
+      "name": "Miguel López",
+      "position": "Gerente de Operaciones en Academia DEF",
+      "image": "assets/img/pj3.jpg",
+      "rating": 5
+    }
+  ]
 }

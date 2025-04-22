@@ -12,5 +12,29 @@
     "contact": "Contact",
     "login": "Log in",
     "signup": "Sign up"
-  }
+  },
+  "testimonialTitle": "What Our Users Are Saying",
+  "testimonials": [
+    {
+      "text": "This platform has been a game-changer for our academy! It's super easy to use and has saved us so much time.",
+      "name": "Mary Doe",
+      "position": "Founder of XYZ Academy",
+      "image": "assets/img/pj1.jpg",
+      "rating": 5
+    },
+    {
+      "text": "An essential tool for managing our academy. The automation features help us focus more on our students.",
+      "name": "Juan Rodriguez",
+      "position": "Director at ABC Academy",
+      "image": "assets/img/pj2.jpg",
+      "rating": 4
+    },
+    {
+      "text": "The platform is easy to integrate into our daily operations, and the customer support is exceptional.",
+      "name": "Miguel López",
+      "position": "Operations Manager at DEF Academy",
+      "image": "assets/img/pj3.jpg",
+      "rating": 4
+    }
+  ]
 }
