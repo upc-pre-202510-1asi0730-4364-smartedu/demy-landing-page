@@ -12,5 +12,37 @@
     "contact": "Contacto",
     "login": "Iniciar sesión",
     "signup": "Registrarse"
+  },
+  "about": {
+    "subtitle": "Nosotros",
+    "big_text": "Simplifica y haz crecer tu negocio educativo",
+    "small_text": "Automatiza inscripciones, horarios, pagos y seguimiento de estudiantes con una plataforma todo-en-uno diseñada para tu academia.",
+    "team": [
+      {
+        "name": "Salim Ramirez",
+        "role": "Líder de equipo",
+        "image": "salim.jpg"
+      },
+      {
+        "name": "Rafael Dominguez",
+        "role": "Miembro 1",
+        "image": "rafael.jpg"
+      },
+      {
+        "name": "Diego Vilca",
+        "role": "Miembro 2",
+        "image": "diego.jpg"
+      },
+      {
+        "name": "Paul Sulca",
+        "role": "Miembro 3",
+        "image": "paul.jpg"
+      },
+      {
+        "name": "Daniel Crispin",
+        "role": "Miembro 4",
+        "image": "daniel.jpg"
+      }
+    ]
   }
 }

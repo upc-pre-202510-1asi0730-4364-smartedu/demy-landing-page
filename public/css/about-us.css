@@ -1,0 +1,16 @@
+.team-member {
+    text-align: center;
+    max-width: 120px;
+}
+
+.team-member img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+
+.team-container {
+    margin-top: 150px;
+}
