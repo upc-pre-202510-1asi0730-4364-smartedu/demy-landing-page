@@ -12,5 +12,17 @@
     "contact": "Contacto",
     "login": "Iniciar sesión",
     "signup": "Registrarse"
+  },
+  "benefits": {
+    "title": "Conoce los beneficios de usar Demy",
+    "subtitle": "Beneficios ",
+    "description": " Todo lo que tienes que saber acerca de porque usar Demy es mejor que usar una hoja o programas como excel",
+    "subtitle1": " Automatiza tus procesos:",
+    "description1":" Reduce el trabajo manual, ahorra tiempo y disminuy errores humanos que suelen aparecer en hojás de cálculo o procesos a mano",
+    "subtitle2": "Acceso centralizado y en tiempo real:",
+    "description2": " A diferencia de un archivo Excel que puede estar desactualizado o guardado localmente, Demy permite colaboración en línea y visión global de la operación",
+    "subtitle3": "Escabilidad y control:",
+    "description3": " Excel se vuelve inmanejable con muchos datos, mientras que una app bien diseñada se adapta al crecimiento de tu institución"
+
   }
 }

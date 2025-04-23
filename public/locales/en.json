@@ -12,5 +12,17 @@
     "contact": "Contact",
     "login": "Log in",
     "signup": "Sign up"
+  },
+  "benefits": {
+    "title": "Discover the benefits of using Demy",
+    "subtitle": "Benefits",
+    "description": "Everything you need to know about why using Demy is better than using paper or programs like Excel.",
+    "subtitle1": "Automate your processes:",
+    "description1": "Reduce manual work, save time, and minimize human errors that commonly occur with spreadsheets or manual tasks.",
+    "subtitle2": "Centralized and real-time access:",
+    "description2": "Unlike an Excel file that can be outdated or saved locally, Demy allows online collaboration and a global view of your operations.",
+    "subtitle3": "Scalability and control:",
+    "description3": "Excel becomes unmanageable with large amounts of data, while a well-designed app adapts to your institution’s growth."
+
   }
 }
