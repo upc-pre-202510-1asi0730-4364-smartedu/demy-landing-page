@@ -20,4 +20,18 @@ export function updateTexts(data) {
     document.getElementById("hero-title").innerHTML = data.hero.title; // usa innerHTML para <span>
     document.getElementById("hero-description").textContent = data.hero.description;
     document.getElementById("cta-btn").textContent = data.hero.cta;
+
+    //About the Product
+    document.getElementById("about-subtitle").textContent = data["about-the-product"].subtitle;
+    document.getElementById("about-title").innerHTML = data["about-the-product"].title;
+    document.getElementById("about-description").textContent = data["about-the-product"].description;
+    document.getElementById("about-subtitle1").textContent=data["about-the-product"].subtitle1;
+    document.getElementById("about-description1").textContent=data["about-the-product"].description1;
+    document.getElementById("about-subtitle2").textContent=data["about-the-product"].subtitle2;
+    document.getElementById("about-description2").textContent=data["about-the-product"].description2;
+    document.getElementById("about-subtitle3").textContent=data["about-the-product"].subtitle3;
+    document.getElementById("about-description3").textContent=data["about-the-product"].description3;
+    document.getElementById("about-subtitle4").textContent=data["about-the-product"].subtitle4;
+    document.getElementById("about-description4").textContent=data["about-the-product"].description4;
+
 }
