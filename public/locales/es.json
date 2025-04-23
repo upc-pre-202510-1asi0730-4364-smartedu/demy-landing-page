@@ -12,5 +12,18 @@
     "contact": "Contacto",
     "login": "Iniciar sesión",
     "signup": "Registrarse"
+  },
+  "contact": {
+    "subtitle": "Contacto",
+    "title": "Contáctanos",
+    "name": "Nombre",
+    "namePlaceholder": "i.e. John Doe",
+    "email": "Correo",
+    "emailPlaceholder": "i.e. john@gmail.com",
+    "phone": "Teléfono",
+    "phonePlaceholder": "964 158 230",
+    "message": "Mensaje",
+    "messagePlaceholder": "Déjanos un mensaje",
+    "submit": "Comienza hoy"
   }
 }
