@@ -21,27 +21,27 @@
       {
         "name": "Salim Ramirez",
         "role": "Líder de equipo",
-        "image": "salim.jpg"
+        "image": "img/fotosPerfil/salim.jpg"
       },
       {
         "name": "Rafael Dominguez",
         "role": "Miembro 1",
-        "image": "rafael.jpg"
+        "image": "img/fotosPerfil/rafael.jpg"
       },
       {
         "name": "Diego Vilca",
         "role": "Miembro 2",
-        "image": "diego.jpg"
+        "image": "img/fotosPerfil/diego.jpg"
       },
       {
         "name": "Paul Sulca",
         "role": "Miembro 3",
-        "image": "paul.jpg"
+        "image": "img/fotosPerfil/paul.png"
       },
       {
         "name": "Daniel Crispin",
         "role": "Miembro 4",
-        "image": "daniel.jpg"
+        "image": "img/fotosPerfil/daniel.jpg"
       }
     ]
   }

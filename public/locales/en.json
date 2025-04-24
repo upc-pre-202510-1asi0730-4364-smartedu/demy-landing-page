@@ -21,27 +21,27 @@
       {
         "name": "Salim Ramirez",
         "role": "Team Leader",
-        "image": "img/salim.jpg"
+        "image": "img/fotosPerfil/salim.jpg"
       },
       {
         "name": "Rafael Dominguez",
         "role": "Member 1",
-        "image": "img/rafael.jpg"
+        "image": "img/fotosPerfil/rafael.jpg"
       },
       {
         "name": "Diego Vilca",
         "role": "Member 2",
-        "image": "img/diego.jpg"
+        "image": "img/fotosPerfil/diego.jpg"
       },
       {
         "name": "Paul Sulca",
         "role": "Member 3",
-        "image": "img/paul.jpg"
+        "image": "img/fotosPerfil/paul.png"
       },
       {
         "name": "Daniel",
         "role": "Member 4",
-        "image": "img/daniel.jpg"
+        "image": "img/fotosPerfil/daniel.jpg"
       }
     ]
 
