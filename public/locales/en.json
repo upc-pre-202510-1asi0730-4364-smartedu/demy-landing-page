@@ -13,6 +13,19 @@
     "login": "Log in",
     "signup": "Sign up"
   },
+  "about-the-product": {
+    "title":"Everything that you need <span> to know about Demy</span>",
+    "subtitle": "About the product",
+    "description": "Demy will be your best friend in the organization of your academys, ¿are you ready to know the features?",
+    "subtitle1": "Digitize everything",
+    "description1": "Digitize the core of your academy organization with the creation and assignment of subjects,schedules and classrooms.",
+    "subtitle2":"Student attendance" ,
+    "description2": "Take your students attendance list comfortably with Demy, after trying it you will say goodbye to excel.",
+    "subtitle3": "Enrolment management",
+    "description3": "Manage your students enrollment in different periods with great ease",
+    "subtitle4": "Financial Reports",
+    "description4": "With Demy you will be able to manage your academy's finances very well, you will be able to see income or expenses for different months"
+  },
   "testimonialTitle": "What Our Users Are Saying",
   "testimonials": [
     {
@@ -70,4 +83,5 @@
     ]
 
   }
+
 }

@@ -13,6 +13,19 @@
     "login": "Iniciar sesión",
     "signup": "Registrarse"
   },
+  "about-the-product": {
+    "title":"Todo lo que necesitas <span> saber sobre Demy</span>",
+    "subtitle": "Acerca del producto",
+    "description": "Demy será tu mejor amiga en la gestión de tus Academias, ¿estás listo para conocer lo que ofrece? ",
+    "subtitle1": "Digitaliza todo",
+    "description1": "Digitaliza todo el proceso core de tu Academia, como la creación y asignación de horarios, cursos, aulas y periodos.",
+    "subtitle2":"Asistencia de Alumnos" ,
+    "description2": "Toma la lista de asistencia de tus alumnos de manera cómoda con Demy, después de probarlo le dirás adiós a excel",
+    "subtitle3":"Gestión de matrícula ",
+    "description3": "Gestiona la matrícula de tus alumnos en distintos periodos con mucha facilidad",
+    "subtitle4": "Reportes financieros",
+    "description4": "Con Demy podrás gestionar muy bien las finanzas de tu academia, podrás ver ingresos o gastos de diferentes meses"
+  },
   "testimonialTitle": "Lo que dicen nuestros usuarios",
   "testimonials": [
     {
@@ -69,4 +82,5 @@
       }
     ]
   }
+
 }
