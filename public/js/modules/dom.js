@@ -32,4 +32,64 @@ export function updateTexts(data) {
     document.getElementById("benefits-subtitle3").textContent =data.benefits.subtitle3;
     document.getElementById("benefits-description3").textContent =data.benefits.description3;
 
+
+    //About the Product
+    document.getElementById("about-product-subtitle").textContent = data["about-the-product"].subtitle;
+    document.getElementById("about-title").innerHTML = data["about-the-product"].title;
+    document.getElementById("about-description").textContent = data["about-the-product"].description;
+    document.getElementById("about-subtitle1").textContent=data["about-the-product"].subtitle1;
+    document.getElementById("about-description1").textContent=data["about-the-product"].description1;
+    document.getElementById("about-subtitle2").textContent=data["about-the-product"].subtitle2;
+    document.getElementById("about-description2").textContent=data["about-the-product"].description2;
+    document.getElementById("about-subtitle3").textContent=data["about-the-product"].subtitle3;
+    document.getElementById("about-description3").textContent=data["about-the-product"].description3;
+    document.getElementById("about-subtitle4").textContent=data["about-the-product"].subtitle4;
+    document.getElementById("about-description4").textContent=data["about-the-product"].description4;
+
+
+    document.getElementById("testimonial-title").textContent = data.testimonialTitle;
+    //testimonial
+    const testimonialElements = [
+        document.getElementById("testimonial-1"),
+        document.getElementById("testimonial-2"),
+        document.getElementById("testimonial-3")
+    ];
+    data.testimonials.forEach((testimonialData, index) => {
+        const testimonialElement = testimonialElements[index];
+        // Actualizr text del testimonio
+        testimonialElement.querySelector(".testimonial-text").textContent = testimonialData.text;
+        // Actualizar nombre
+        testimonialElement.querySelector(".testimonial-name").textContent = testimonialData.name;
+        // actualizar posición
+        testimonialElement.querySelector(".testimonial-position").textContent = testimonialData.position;
+        // actualizar imagen
+        testimonialElement.querySelector(".testimonial-img").src = testimonialData.image;
+        testimonialElement.querySelector(".testimonial-img").alt = testimonialData.name;
+        // Estrellas
+        const rating = testimonialData.rating || 5;
+        const fullStars = "★".repeat(rating);
+        const emptyStars = "☆".repeat(5 - rating);
+        testimonialElement.querySelector(".testimonial-rating").textContent = fullStars + emptyStars;
+
+
+    });
+
+// About us section
+    document.getElementById("about-subtitle").textContent = data.about.subtitle;
+    document.getElementById("text-about1").textContent = data.about.big_text;
+    document.getElementById("text-about2").textContent = data.about.small_text;
+    const teamContainer = document.querySelector(".team-container");
+    teamContainer.innerHTML = "";
+    data.about.team.forEach(member => {
+        const memberHTML = `
+        <div class="team-member text-center">
+            <img src="assets/${member.image}" alt="${member.name}" class="w-24 h-24 rounded-full mx-auto mb-2 object-cover">
+            <p class="font-semibold text-gray-800">${member.name}</p>
+            <p class="text-sm text-gray-500">${member.role}</p>
+        </div>
+    `;
+        teamContainer.innerHTML += memberHTML;
+    });
+
+
 }
