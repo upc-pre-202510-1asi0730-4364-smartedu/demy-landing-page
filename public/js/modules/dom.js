@@ -20,4 +20,12 @@ export function updateTexts(data) {
     document.getElementById("hero-title").innerHTML = data.hero.title; // usa innerHTML para <span>
     document.getElementById("hero-description").textContent = data.hero.description;
     document.getElementById("cta-btn").textContent = data.hero.cta;
+
+    // Footer
+    document.getElementById("footer-aboutProduct").textContent = data.footer.aboutProduct;
+    document.getElementById("footer-benefits").textContent = data.footer.benefits;
+    document.getElementById("footer-testimonials").textContent = data.footer.testimonials;
+    document.getElementById("footer-pricing").textContent = data.footer.pricing;
+    document.getElementById("footer-contact").textContent = data.footer.contact;
+    document.getElementById("footer-copyright").textContent = data.footer.copyright;
 }

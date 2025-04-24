@@ -12,5 +12,13 @@
     "contact": "Contacto",
     "login": "Iniciar sesión",
     "signup": "Registrarse"
+  },
+  "footer": {
+    "aboutProduct": "Sobre el Producto",
+    "benefits": "Beneficios",
+    "testimonials": "Testimonios",
+    "pricing": "Planes",
+    "contact": "Contacto",
+    "copyright": "©demy 2025. Todos los derechos reservados"
   }
 }
