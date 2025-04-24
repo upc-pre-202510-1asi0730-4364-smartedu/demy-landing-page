@@ -13,6 +13,87 @@
     "login": "Iniciar sesión",
     "signup": "Registrarse"
   },
+  "about-the-product": {
+    "title":"Todo lo que necesitas <span> saber sobre Demy</span>",
+    "subtitle": "Acerca del producto",
+    "description": "Demy será tu mejor amiga en la gestión de tus Academias, ¿estás listo para conocer lo que ofrece? ",
+    "subtitle1": "Digitaliza todo",
+    "description1": "Digitaliza todo el proceso core de tu Academia, como la creación y asignación de horarios, cursos, aulas y periodos.",
+    "subtitle2":"Asistencia de Alumnos" ,
+    "description2": "Toma la lista de asistencia de tus alumnos de manera cómoda con Demy, después de probarlo le dirás adiós a excel",
+    "subtitle3":"Gestión de matrícula ",
+    "description3": "Gestiona la matrícula de tus alumnos en distintos periodos con mucha facilidad",
+    "subtitle4": "Reportes financieros",
+    "description4": "Con Demy podrás gestionar muy bien las finanzas de tu academia, podrás ver ingresos o gastos de diferentes meses"
+  },
+  "testimonialTitle": "Lo que dicen nuestros usuarios",
+  "testimonials": [
+    {
+      "text": "¡Esta plataforma ha sido un cambio radical para nuestra academia! Es muy fácil de usar y nos ha ahorrado mucho tiempo.",
+      "name": "Mary Doe",
+      "position": "Fundador de Academia XYZ",
+      "image": "assets/img/pj1.jpg",
+      "rating": 4
+    },
+    {
+      "text": "Una herramienta esencial para gestionar nuestra academia. Las funciones de automatización nos ayudan a centrarnos más en nuestros estudiantes.",
+      "name": "Juan Rodriguez",
+      "position": "Directora de Academia ABC",
+      "image": "assets/img/pj2.jpg",
+      "rating": 4
+    },
+    {
+      "text": "La plataforma se integra fácilmente en nuestras operaciones diarias, y el soporte al cliente es excepcional.",
+      "name": "Miguel López",
+      "position": "Gerente de Operaciones en Academia DEF",
+      "image": "assets/img/pj3.jpg",
+      "rating": 5
+    }
+  ],
+  "about": {
+    "subtitle": "Nosotros",
+    "big_text": "Conoce al equipo detras de Demy",
+    "small_text": "Somos un grupo de estudiantes de la carrera ingenieria de software.",
+    "team": [
+      {
+        "name": "Salim Ramirez",
+        "role": "Líder de equipo",
+        "image": "img/fotosPerfil/salim.jpg"
+      },
+      {
+        "name": "Rafael Dominguez",
+        "role": "Miembro 1",
+        "image": "img/fotosPerfil/rafael.jpg"
+      },
+      {
+        "name": "Diego Vilca",
+        "role": "Miembro 2",
+        "image": "img/fotosPerfil/diego.jpg"
+      },
+      {
+        "name": "Paul Sulca",
+        "role": "Miembro 3",
+        "image": "img/fotosPerfil/paul.png"
+      },
+      {
+        "name": "Daniel Crispin",
+        "role": "Miembro 4",
+        "image": "img/fotosPerfil/daniel.jpg"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Conoce los beneficios de usar Demy",
+    "subtitle": "Beneficios ",
+    "description": " Todo lo que tienes que saber acerca de porque usar Demy es mejor que usar una hoja o programas como excel",
+    "subtitle1": " Automatiza tus procesos:",
+    "description1":" Reduce el trabajo manual, ahorra tiempo y disminuye errores humanos que suelen aparecer en hojas de cálculo o procesos a mano.",
+    "subtitle2": "Acceso centralizado y en tiempo real:",
+    "description2": " A diferencia de un archivo Excel que puede estar desactualizado o guardado localmente, Demy permite colaboración en línea y visión global de la operación.",
+    "subtitle3": "Escabilidad y control:",
+    "description3": " Excel se vuelve inmanejable con muchos datos, mientras que una app bien diseñada se adapta al crecimiento de tu institución."
+
+  },
   "footer": {
     "aboutProduct": "Sobre el Producto",
     "benefits": "Beneficios",
