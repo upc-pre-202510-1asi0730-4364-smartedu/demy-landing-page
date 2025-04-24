@@ -21,6 +21,18 @@ export function updateTexts(data) {
     document.getElementById("hero-description").textContent = data.hero.description;
     document.getElementById("cta-btn").textContent = data.hero.cta;
 
+    //Benefits
+    document.getElementById("benefits-subtitle").textContent =data.benefits.subtitle;
+    document.getElementById("benefits-title").textContent =data.benefits.title;
+    document.getElementById("benefits-description").textContent=data.benefits.description;
+    document.getElementById("benefits-subtitle1").textContent =data.benefits.subtitle1;
+    document.getElementById("benefits-description1").textContent =data.benefits.description1;
+    document.getElementById("benefits-subtitle2").textContent =data.benefits.subtitle2;
+    document.getElementById("benefits-description2").textContent =data.benefits.description2;
+    document.getElementById("benefits-subtitle3").textContent =data.benefits.subtitle3;
+    document.getElementById("benefits-description3").textContent =data.benefits.description3;
+
+
     //About the Product
     document.getElementById("about-product-subtitle").textContent = data["about-the-product"].subtitle;
     document.getElementById("about-title").innerHTML = data["about-the-product"].title;
