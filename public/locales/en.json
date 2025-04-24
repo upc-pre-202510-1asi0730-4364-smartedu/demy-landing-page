@@ -94,6 +94,13 @@
     "subtitle3": "Scalability and control:",
     "description3": "Excel becomes unmanageable with large amounts of data, while a well-designed app adapts to your institution’s growth."
 
+  },
+  "footer": {
+    "aboutProduct": "About The Product",
+    "benefits": "Benefits",
+    "testimonials": "Testimonials",
+    "pricing": "Plans",
+    "contact": "Contact",
+    "copyright": "©demy 2025. All rights reserved"
   }
-
 }

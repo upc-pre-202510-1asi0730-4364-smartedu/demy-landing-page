@@ -93,6 +93,13 @@
     "subtitle3": "Escabilidad y control:",
     "description3": " Excel se vuelve inmanejable con muchos datos, mientras que una app bien diseñada se adapta al crecimiento de tu institución."
 
+  },
+  "footer": {
+    "aboutProduct": "Sobre el Producto",
+    "benefits": "Beneficios",
+    "testimonials": "Testimonios",
+    "pricing": "Planes",
+    "contact": "Contacto",
+    "copyright": "©demy 2025. Todos los derechos reservados"
   }
-
 }
