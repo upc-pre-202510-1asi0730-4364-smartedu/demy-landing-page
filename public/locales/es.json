@@ -12,5 +12,37 @@
     "contact": "Contacto",
     "login": "Iniciar sesión",
     "signup": "Registrarse"
+  },
+  "about": {
+    "subtitle": "Nosotros",
+    "big_text": "Conoce al equipo detras de Demy",
+    "small_text": "Somos un grupo de estudiantes de la carrera ingenieria de software.",
+    "team": [
+      {
+        "name": "Salim Ramirez",
+        "role": "Líder de equipo",
+        "image": "img/fotosPerfil/salim.jpg"
+      },
+      {
+        "name": "Rafael Dominguez",
+        "role": "Miembro 1",
+        "image": "img/fotosPerfil/rafael.jpg"
+      },
+      {
+        "name": "Diego Vilca",
+        "role": "Miembro 2",
+        "image": "img/fotosPerfil/diego.jpg"
+      },
+      {
+        "name": "Paul Sulca",
+        "role": "Miembro 3",
+        "image": "img/fotosPerfil/paul.png"
+      },
+      {
+        "name": "Daniel Crispin",
+        "role": "Miembro 4",
+        "image": "img/fotosPerfil/daniel.jpg"
+      }
+    ]
   }
 }

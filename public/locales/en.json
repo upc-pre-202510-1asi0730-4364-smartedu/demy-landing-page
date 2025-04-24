@@ -12,5 +12,38 @@
     "contact": "Contact",
     "login": "Log in",
     "signup": "Sign up"
+  },
+  "about": {
+    "subtitle": "About us",
+    "big_text": "Meet the team behind Demy",
+    "small_text": "We are a group of software engineering students.",
+    "team": [
+      {
+        "name": "Salim Ramirez",
+        "role": "Team Leader",
+        "image": "img/fotosPerfil/salim.jpg"
+      },
+      {
+        "name": "Rafael Dominguez",
+        "role": "Member 1",
+        "image": "img/fotosPerfil/rafael.jpg"
+      },
+      {
+        "name": "Diego Vilca",
+        "role": "Member 2",
+        "image": "img/fotosPerfil/diego.jpg"
+      },
+      {
+        "name": "Paul Sulca",
+        "role": "Member 3",
+        "image": "img/fotosPerfil/paul.png"
+      },
+      {
+        "name": "Daniel",
+        "role": "Member 4",
+        "image": "img/fotosPerfil/daniel.jpg"
+      }
+    ]
+
   }
 }
