@@ -47,4 +47,23 @@ export function updateTexts(data) {
 
 
     });
+
+// About us section
+    document.getElementById("about-subtitle").textContent = data.about.subtitle;
+    document.getElementById("text-about1").textContent = data.about.big_text;
+    document.getElementById("text-about2").textContent = data.about.small_text;
+    const teamContainer = document.querySelector(".team-container");
+    teamContainer.innerHTML = "";
+    data.about.team.forEach(member => {
+        const memberHTML = `
+        <div class="team-member text-center">
+            <img src="assets/${member.image}" alt="${member.name}" class="w-24 h-24 rounded-full mx-auto mb-2 object-cover">
+            <p class="font-semibold text-gray-800">${member.name}</p>
+            <p class="text-sm text-gray-500">${member.role}</p>
+        </div>
+    `;
+        teamContainer.innerHTML += memberHTML;
+    });
+
+
 }
