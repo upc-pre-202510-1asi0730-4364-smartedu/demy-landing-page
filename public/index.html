@@ -13,6 +13,9 @@
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="stylesheet" href="css/about-us.css">
+
 </head>
 <body class="bg-white text-gray-800">
 
@@ -113,7 +116,7 @@
 <section id="about-product" class="py-12 md:py-20 px-6 bg-gray-50">
     <div class="max-w-6xl mx-auto">
         <!-- contenido -->
-        <p id="about-subtitle" class="text-primary-3 font-medium text-lg mb-2 text-center">About the product</p>
+        <p id="about-product-subtitle" class="text-primary-3 font-medium text-lg mb-2 text-center">About the product</p>
         <h1 id="about-title" class="h1 text-primary-1 mb-4 leading-tight text-center" >
             Everything that you need to know about Demy
         </h1>
@@ -136,7 +139,7 @@
             <div class="relative pl-16">
                 <dt class="text-base/7 font-semibold text-gray-900">
                     <div class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-blue-800">
-                        <svg class="size-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <svg class="size-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75" />
                         </svg>
 
@@ -148,7 +151,7 @@
             <div class="relative pl-16">
                 <dt class="text-base/7 font-semibold text-gray-900">
                     <div class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-blue-800">
-                        <svg class="size-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <svg class="size-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
                         </svg>
 
@@ -160,7 +163,7 @@
             <div class="relative pl-16">
                 <dt class="text-base/7 font-semibold text-gray-900">
                     <div class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-blue-800">
-                        <svg class="size-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <svg class="size-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
                             <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 7.756a4.5 4.5 0 1 0 0 8.488M7.5 10.5h5.25m-5.25 3h5.25M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                         </svg>
 
@@ -181,10 +184,54 @@
     </div>
 </section>
 
-<!-- LPS04: Testimonials -->
-<section id="testimonials" class="py-12 md:py-20 px-6 bg-gray-50">
-    <div class="max-w-6xl mx-auto">
-        <!-- contenido -->
+<section id="testimonials" class="bg-gray-100 py-20 px-4 md:px-8">
+    <!-- Título de la sección -->
+    <h2 id="testimonial-title" class="text-4xl md:text-5xl font-bold text-center text-blue-800 mb-16">
+
+    </h2>
+
+    <!-- Contenedor de testimonios -->
+    <div class="grid gap-10 md:grid-cols-3 max-w-6xl mx-auto">
+        <!-- Testimonio 1 -->
+        <div id="testimonial-1" class="testimonial bg-white p-6 rounded-2xl shadow">
+            <div class="text-gray-600 italic testimonial-text mb-4">
+                <!-- Texto -->
+            </div>
+            <div class="flex items-center gap-4">
+                <img class="testimonial-img w-12 h-12 rounded-full object-cover" src="" alt="">
+                <div>
+                    <p class="testimonial-name font-semibold text-gray-800"></p>
+                    <p class="testimonial-position text-sm text-gray-500"></p>
+                    <div class="testimonial-rating text-yellow-500 text-sm"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonio 2 -->
+        <div id="testimonial-2" class="testimonial bg-white p-6 rounded-2xl shadow">
+            <div class="text-gray-600 italic testimonial-text mb-4"></div>
+            <div class="flex items-center gap-4">
+                <img class="testimonial-img w-12 h-12 rounded-full object-cover" src="" alt="">
+                <div>
+                    <p class="testimonial-name font-semibold text-gray-800"></p>
+                    <p class="testimonial-position text-sm text-gray-500"></p>
+                    <div class="testimonial-rating text-yellow-500 text-sm"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonio 3 -->
+        <div id="testimonial-3" class="testimonial bg-white p-6 rounded-2xl shadow">
+            <div class="text-gray-600 italic testimonial-text mb-4"></div>
+            <div class="flex items-center gap-4">
+                <img class="testimonial-img w-12 h-12 rounded-full object-cover" src="" alt="">
+                <div>
+                    <p class="testimonial-name font-semibold text-gray-800"></p>
+                    <p class="testimonial-position text-sm text-gray-500"></p>
+                    <div class="testimonial-rating text-yellow-500 text-sm"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -192,8 +239,54 @@
 <section id="about-us" class="py-12 md:py-20 px-6 bg-gray-50">
     <div class="max-w-6xl mx-auto">
         <!-- contenido -->
+        <p id="about-subtitle" class="text-sm text-blue-600 font-medium mb-2">About us</p>
+
+
+        <h2 id="text-about1" class="text-5xl font-bold text-blue-800 mb-4">
+            Simplify and grow your education business
+        </h2>
+
+        <p id="text-about2" class="text-lg text-gray-600 mb-8">
+            Automate enrollments, schedules, payments, and student tracking with an all-in-one platform designed for your academy.
+        </p>
+
+
+        <div class="team-container flex flex-wrap justify-center gap-6">
+            <!-- Miembro 1 -->
+            <div class="team-member text-center">
+                <img src="assets/img/fotosPerfil/salim.JPG" alt="Salim Ramirez" class="w-24 h-24 rounded-full mx-auto mb-2 object-cover">
+                <p class="font-semibold text-gray-800">Salim Ramirez</p>
+                <p class="text-sm text-gray-500">Team Leader</p>
+            </div>
+            <!-- Miembro 2 -->
+            <div class="team-member text-center">
+                <img src="assets/img/fotosPerfil/rafael.jpg" alt="Rafael Dominguez" class="w-24 h-24 rounded-full mx-auto mb-2 object-cover">
+                <p class="font-semibold text-gray-800">Rafael Dominguez</p>
+                <p class="text-sm text-gray-500">Member 1</p>
+            </div>
+            <!-- Miembro 3 -->
+            <div class="team-member text-center">
+                <img src="assets/img/fotosPerfil/diego.jpg" alt="Diego Vilca" class="w-24 h-24 rounded-full mx-auto mb-2 object-cover">
+                <p class="font-semibold text-gray-800">Diego Vilca</p>
+                <p class="text-sm text-gray-500">Member 2</p>
+            </div>
+            <!-- Miembro 4 -->
+            <div class="team-member text-center">
+                <img src="assets/img/fotosPerfil/paul.png" alt="Paul Sulca" class="w-24 h-24 rounded-full mx-auto mb-2 object-cover">
+                <p class="font-semibold text-gray-800">Paul Sulca</p>
+                <p class="text-sm text-gray-500">Member 3</p>
+            </div>
+            <!-- Miembro 5 -->
+            <div class="team-member text-center">
+                <img src="assets/img/fotosPerfil/daniel.jpg" alt="Daniel Crispin" class="w-24 h-24 rounded-full mx-auto mb-2 object-cover">
+                <p class="font-semibold text-gray-800">Daniel Crispin</p>
+                <p class="text-sm text-gray-500">Member 4</p>
+            </div>
+        </div>
+
     </div>
 </section>
+
 
 <!-- LPS06: Plans & Pricing -->
 <section id="pricing" class="py-12 md:py-20 px-6 bg-gray-50">
