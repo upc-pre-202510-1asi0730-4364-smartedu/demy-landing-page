@@ -102,5 +102,18 @@
     "pricing": "Plans",
     "contact": "Contact",
     "copyright": "©demy 2025. All rights reserved"
+  },
+  "contact": {
+    "subtitle": "Contact",
+    "title": "Contact us",
+    "name": "Name",
+    "namePlaceholder": "i.e. John Doe",
+    "email": "Email",
+    "emailPlaceholder": "i.e. john@gmail.com",
+    "phone": "Phone",
+    "phonePlaceholder": "964 158 230",
+    "message": "Message",
+    "messagePlaceholder": "Leave us a message",
+    "submit": "Start today"
   }
 }
