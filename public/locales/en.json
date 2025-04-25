@@ -13,6 +13,131 @@
     "login": "Log in",
     "signup": "Sign up"
   },
+  "about-the-product": {
+    "title":"Everything that you need <span> to know about Demy</span>",
+    "subtitle": "About the product",
+    "description": "Demy will be your best friend in the organization of your academys, ¿are you ready to know the features?",
+    "subtitle1": "Digitize everything",
+    "description1": "Digitize the core of your academy organization with the creation and assignment of subjects,schedules and classrooms.",
+    "subtitle2":"Student attendance" ,
+    "description2": "Take your students attendance list comfortably with Demy, after trying it you will say goodbye to excel.",
+    "subtitle3": "Enrolment management",
+    "description3": "Manage your students enrollment in different periods with great ease",
+    "subtitle4": "Financial Reports",
+    "description4": "With Demy you will be able to manage your academy's finances very well, you will be able to see income or expenses for different months"
+  },
+  "testimonialTitle": "What Our Users Are Saying",
+  "testimonials": [
+    {
+      "text": "This platform has been a game-changer for our academy! It's super easy to use and has saved us so much time.",
+      "name": "Mary Doe",
+      "position": "Founder of XYZ Academy",
+      "image": "assets/img/pj1.jpg",
+      "rating": 5
+    },
+    {
+      "text": "An essential tool for managing our academy. The automation features help us focus more on our students.",
+      "name": "Juan Rodriguez",
+      "position": "Director at ABC Academy",
+      "image": "assets/img/pj2.jpg",
+      "rating": 4
+    },
+    {
+      "text": "The platform is easy to integrate into our daily operations, and the customer support is exceptional.",
+      "name": "Miguel López",
+      "position": "Operations Manager at DEF Academy",
+      "image": "assets/img/pj3.jpg",
+      "rating": 4
+    }
+  ],
+  "about": {
+    "subtitle": "About us",
+    "big_text": "Meet the team behind Demy",
+    "small_text": "We are a group of software engineering students.",
+    "team": [
+      {
+        "name": "Salim Ramirez",
+        "role": "Team Leader",
+        "image": "img/fotosPerfil/salim.jpg"
+      },
+      {
+        "name": "Rafael Dominguez",
+        "role": "Member 1",
+        "image": "img/fotosPerfil/rafael.jpg"
+      },
+      {
+        "name": "Diego Vilca",
+        "role": "Member 2",
+        "image": "img/fotosPerfil/diego.jpg"
+      },
+      {
+        "name": "Paul Sulca",
+        "role": "Member 3",
+        "image": "img/fotosPerfil/paul.png"
+      },
+      {
+        "name": "Daniel",
+        "role": "Member 4",
+        "image": "img/fotosPerfil/daniel.jpg"
+      }
+    ]
+
+  },
+  "benefits": {
+    "title": "Discover the benefits of using Demy",
+    "subtitle": "Benefits",
+    "description": "Everything you need to know about why using Demy is better than using paper or programs like Excel.",
+    "subtitle1": "Automate your processes:",
+    "description1": "Reduce manual work, save time, and minimize human errors that commonly occur with spreadsheets or manual tasks.",
+    "subtitle2": "Centralized and real-time access:",
+    "description2": "Unlike an Excel file that can be outdated or saved locally, Demy allows online collaboration and a global view of your operations.",
+    "subtitle3": "Scalability and control:",
+    "description3": "Excel becomes unmanageable with large amounts of data, while a well-designed app adapts to your institution’s growth."
+
+  },
+  "footer": {
+    "aboutProduct": "About The Product",
+    "benefits": "Benefits",
+    "testimonials": "Testimonials",
+    "pricing": "Plans",
+    "contact": "Contact",
+    "copyright": "©demy 2025. All rights reserved"
+  },
+  "contact": {
+    "subtitle": "Contact",
+    "title": "Contact us",
+    "name": "Name",
+    "namePlaceholder": "i.e. John Doe",
+    "email": "Email",
+    "emailPlaceholder": "i.e. john@gmail.com",
+    "phone": "Phone",
+    "phonePlaceholder": "964 158 230",
+    "message": "Message",
+    "messagePlaceholder": "Leave us a message",
+    "submit": "Start today"
+  },
+  "faq": {
+    "title": "FAQs",
+    "heading": "Frequently asked questions",
+    "questions": {
+      "question_1": {
+        "title": "How can I automate student enrollment and payment management?",
+        "answer": "You can use our platform to efficiently manage student enrollments, track payments, and set up automatic reminders to reduce overdue payments, all from a single place, quickly and securely."
+      },
+      "question_2": {
+        "title": "What tools does Demy provide for scheduling and room assignments?",
+        "answer": "Our platform allows you to automatically assign schedules and classrooms, optimizing the administrative and teaching staff's workload. Users can see real-time updates on schedules and assignments."
+      },
+      "question_3": {
+        "title": "How can I track student attendance?",
+        "answer": "Demy includes an integrated attendance tracking system that allows you to record and check student attendance easily. This system generates detailed reports to help you monitor student performance."
+      },
+      "question_4": {
+        "title": "How does Demy handle user support and training for administrators and teachers?",
+        "answer": "Demy provides dedicated support through email and phone, as well as comprehensive training materials for both administrators and teachers. We ensure that your team feels confident using the platform with detailed tutorials and ongoing customer service."
+      }
+    }
+  },
   "pricing": {
     "title": "Plans & Pricing",
     "title_call_to_action": "Choose the right plan for you",
