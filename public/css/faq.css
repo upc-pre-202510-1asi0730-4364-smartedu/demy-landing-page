@@ -1,0 +1,9 @@
+.accordion-content {
+    transition: max-height 0.3s ease-out;
+    max-height: 0; /* Inicialmente el contenido está oculto */
+    overflow: hidden;
+}
+
+.accordion-content.active {
+    max-height: 500px; /* Ajusta el valor según el contenido máximo que pueda tener */
+}
