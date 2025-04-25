@@ -136,5 +136,52 @@
         "answer": "Demy ofrece soporte dedicado a través de correo electrónico y teléfono, así como materiales de capacitación completos para administradores y docentes. Nos aseguramos de que tu equipo se sienta seguro utilizando la plataforma con tutoriales detallados y servicio al cliente continuo."
       }
     }
+  },
+  "pricing": {
+    "title": "Planes y Precios",
+    "title_call_to_action": "Elige el plan adecuado para ti",
+    "description": "Optimiza la gesti\u00f3n de academias educativas y deportivas a trav\u00e9s de una plataforma integral que facilita la administraci\u00f3n y mejora la eficiencia operativa.",
+    "most_popular": "Mas Popular",
+    "cards": {
+      "essential": {
+        "title": "Essential",
+        "price": "$29.90",
+        "price_per_month": "/mes",
+        "description": "Para academias peque\u00f1as.",
+        "features": {
+          "feature_1": "1 sede",
+          "feature_2": "Hasta 100 alumnos",
+          "feature_3": "Hasta 10 profesores",
+          "feature_4": "Gesti\u00f3n de matr\u00edcula y pagos"
+        },
+        "get_started": "Comienza hoy"
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "$59.90",
+        "price_per_month": "/mes",
+        "description": "Para academias medianas.",
+        "features": {
+          "feature_1": "Hasta 2 sedes",
+          "feature_2": "Hasta 500 alumnos",
+          "feature_3": "Hasta 50 profesores",
+          "feature_4": "Gesti\u00f3n de matr\u00edcula y pagos"
+        },
+        "get_started": "Comienza hoy"
+      },
+      "elite": {
+        "title": "Elite",
+        "price": "$199.90",
+        "price_per_month": "/mes",
+        "description": "Para academias grandes.",
+        "features": {
+          "feature_1": "Hasta 2000 alumnos",
+          "feature_2": "Hasta 200 profesores",
+          "feature_3": "Soporte prioritario",
+          "feature_4": "Gesti\u00f3n de matr\u00edcula y pagos"
+        },
+        "get_started": "Comienza hoy"
+      }
+    }
   }
 }
