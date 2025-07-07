@@ -163,7 +163,7 @@ export function updateTexts(data) {
 
     document.getElementById("pro-get-started").textContent = data.pricing.cards.pro.get_started;
 
-// Sección Elite
+    // Sección Elite
     document.getElementById("elite-title").textContent = data.pricing.cards.elite.title;
     document.getElementById("elite-price").textContent = data.pricing.cards.elite.price;
     document.getElementById("elite-price_per_month").textContent = data.pricing.cards.elite.price_per_month;
@@ -175,4 +175,16 @@ export function updateTexts(data) {
     document.getElementById("elite-features-feature_4").textContent = data.pricing.cards.elite.features.feature_4;
 
     document.getElementById("elite-get-started").textContent = data.pricing.cards.elite.get_started;
+
+
+    // About the Product Video Section
+    document.getElementById("about-the-product-video-subtitle").innerHTML = data["about-the-product-video"].subtitle;
+    document.getElementById("about-the-product-video-title").innerHTML = data["about-the-product-video"].title;
+    document.getElementById("about-the-product-video-description").innerHTML = data["about-the-product-video"].description;
+
+    // About the Team Video Section
+    document.getElementById("about-the-team-video-subtitle").innerHTML = data["about-the-team-video"].subtitle;
+    document.getElementById("about-the-team-video-title").innerHTML = data["about-the-team-video"].title;
+    document.getElementById("about-the-team-video-description").innerHTML = data["about-the-team-video"].description;
+
 }
