@@ -26,6 +26,11 @@
     "subtitle4": "Financial Reports",
     "description4": "With Demy you will be able to manage your academy's finances very well, you will be able to see income or expenses for different months"
   },
+  "about-the-product-video": {
+    "subtitle": "Product Overview",
+    "title": "About the Product",
+    "description": "Watch our in-depth introduction to Demy and discover how our platform can help you automate enrollments, schedules, payments, and student tracking. Designed for academies looking to streamline operations and deliver exceptional learning experiences. With Demy, managing your entire educational workflow becomes simpler, faster, and more effective."
+  },
   "testimonialTitle": "What Our Users Are Saying",
   "testimonials": [
     {
@@ -81,7 +86,11 @@
         "image": "img/fotosPerfil/daniel.jpg"
       }
     ]
-
+  },
+  "about-the-team-video": {
+    "subtitle": "Our Team",
+    "title": "About the Team",
+    "description": "Meet the passionate team behind Demy. We are dedicated to delivering innovative solutions that simplify the management of your educational business. Our combined expertise ensures that your academy can focus on what truly matters: delivering exceptional learning experiences."
   },
   "benefits": {
     "title": "Discover the benefits of using Demy",
