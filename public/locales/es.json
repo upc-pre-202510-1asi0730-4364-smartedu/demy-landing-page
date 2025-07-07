@@ -26,6 +26,11 @@
     "subtitle4": "Reportes financieros",
     "description4": "Con Demy podrás gestionar muy bien las finanzas de tu academia, podrás ver ingresos o gastos de diferentes meses"
   },
+  "about-the-product-video": {
+    "subtitle": "Visión general del producto",
+    "title": "Sobre el producto",
+    "description": "Mira nuestra introducción detallada a Demy y descubre cómo nuestra plataforma puede ayudarte a automatizar matrículas, horarios, pagos y seguimiento de estudiantes. Diseñada para academias que buscan optimizar operaciones y ofrecer experiencias de aprendizaje excepcionales. Con Demy, gestionar todo tu flujo educativo será más simple, rápido y efectivo."
+  },
   "testimonialTitle": "Lo que dicen nuestros usuarios",
   "testimonials": [
     {
@@ -81,6 +86,11 @@
         "image": "img/fotosPerfil/daniel.jpg"
       }
     ]
+  },
+  "about-the-team-video": {
+    "subtitle": "Nuestro equipo",
+    "title": "Sobre el equipo",
+    "description": "Conoce al apasionado equipo detrás de Demy. Estamos dedicados a ofrecer soluciones innovadoras que simplifiquen la gestión de tu negocio educativo. Nuestra experiencia combinada asegura que tu academia pueda centrarse en lo más importante: ofrecer experiencias de aprendizaje excepcionales."
   },
   "benefits": {
     "title": "Conoce los beneficios de usar Demy",
